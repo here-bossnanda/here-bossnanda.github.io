@@ -9,7 +9,7 @@ menuToggle.addEventListener("click", function() {
 const texts = [
     "WELCOME, FELLAS;",
     "I AM WEB DEVELOPER",
-    "SOFTWARE ENGINNER",
+    "SOFTWARE ENGINEER",
     "FULLSTACK DEVELOPER",
     "PEMPEK CITY PRIDE",
 ];
