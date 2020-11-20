@@ -538,8 +538,24 @@ header .flex-hero-w2 .gambar {
     float: right;
 }
 
-.tentang-wrapper .text {
-    display: inline;
+.appear-hide {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+    /* display: inline; */
+}
+
+.appear-hide2 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+    /* display: inline; */
+}
+
+.appear-show {
+    opacity: 1;
+    transform: translate(0px);
+    /* display: inline; */
 }
 
 .tentang-wrapper-inside {
@@ -569,3 +585,33 @@ header .flex-hero-w2 .gambar {
 
 
 /* =========================== END TENTANG SAYA =========================== */
+
+
+/* =========================== START FOOTER =========================== */
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    margin-bottom: 20px;
+}
+
+footer h5 {
+    color: #f7f7f7;
+    text-align: center;
+}
+
+footer h5 a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #00aced;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+/* =========================== END FOOTER =========================== */
