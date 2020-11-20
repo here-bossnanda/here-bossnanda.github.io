@@ -67,6 +67,22 @@ body {
     margin-right: 10px;
 }
 
+.resume {
+    background-color: #1ebed3;
+    box-shadow: 0 7px #dadbdb;
+    margin-right: 10px;
+    text-decoration: none
+}
+
+.gmail {
+    background-color: #f0bd15;
+    box-shadow: 0 7px #dadbdb;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px
+}
+
 .youtube {
     background-color: #e01515;
     box-shadow: 0 7px #e04949;
@@ -96,6 +112,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 10;
+    transition: all 0.5s ease-in-out;
 }
 
 nav .header-left {
@@ -287,7 +304,7 @@ header .flex-hero-w2 .heading-text1 {
 }
 
 header .flex-hero-w2 .heading-text2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
     margin-bottom: 16;
     letter-spacing: 0.1em;
@@ -480,7 +497,7 @@ header .flex-hero-w2 .gambar {
 
 .tentang-wrapper h3 {
     font-weight: bolder;
-    color: #347dc5;
+    color: #73FBD3;
     text-shadow: 2px 2px #b3afaf;
     font-size: 25px;
     margin-top: 30px;
@@ -489,7 +506,7 @@ header .flex-hero-w2 .gambar {
 
 .tentang-wrapper h4 {
     font-weight: lighter;
-    color: #6d6868c2;
+    color: #6b857d;
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -501,8 +518,9 @@ header .flex-hero-w2 .gambar {
 
 .tentang-wrapper p {
     text-align: justify;
-    font-size: 20px;
-    color: #776e6e;
+    font-size: 28px;
+    color: #6b857d;
+    border-bottom: 1px solid #eee;
 }
 
 .tentang-wrapper img.image {
@@ -512,12 +530,19 @@ header .flex-hero-w2 .gambar {
     float: left;
 }
 
+.tentang-wrapper img.imageGif {
+    border-radius: 10px;
+    height: 220px;
+    width: 45%;
+    float: right;
+}
+
 .tentang-wrapper .text {
     display: inline;
 }
 
 .tentang-wrapper-inside {
-    padding: 10px 80px 180px;
+    padding: 10px 80px 0px;
     margin-top: 20px;
     background-color: #ffffff;
     cursor: pointer;
