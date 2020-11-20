@@ -678,6 +678,10 @@ p {
     margin-bottom: 30px;
 }
 
+.message-wrapper a {
+    text-decoration: none;
+}
+
 .message-wrapper .heading p {
     width: 100%;
     text-align: center;
