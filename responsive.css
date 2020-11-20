@@ -1,0 +1,149 @@
+/* UKURAN TABLET */
+
+@media screen and (max-width: 1170px) {
+    /* =========================== START NAVBAR =========================== */
+    nav .header-right ul {
+        width: 100%;
+    }
+    nav .header-right {
+        margin-right: -30px;
+    }
+    /* =========================== END NAVBAR =========================== */
+    /* =========================== START HERO =========================== */
+    header .flex-hero-w2 .hero-right2 {
+        width: 309px;
+        height: 440px;
+    }
+    header .flex-hero-w2 .border-belakang {
+        width: 309px;
+        height: 440px;
+    }
+    header .flex-hero-w2 .gambar {
+        object-fit: cover;
+        width: 309px;
+        height: 440px;
+    }
+    header .flex-hero-w2 .heading-text1 {
+        font-size: 3.5rem;
+    }
+    header .flex-hero-w2 .border-depan {
+        margin-top: 6rem;
+        margin-left: 1rem;
+    }
+    header .flex-hero-w2 p.heading-text2 {
+        font-size: 1rem;
+        text-align: justify;
+        width: 95%;
+    }
+    header .flex-hero-w2 .border-belakang {
+        margin-top: 4rem;
+        margin-right: -2.5rem;
+    }
+    header .circle {
+        margin-bottom: 30px;
+    }
+    /* =========================== END HERO =========================== */
+    .TechStack-wrapper .TechStack {
+        flex: 48%;
+        max-width: 48%;
+    }
+    .tentang-wrapper .flex-tentang-w2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .tentang-wrapper img.image {
+        width: 96%;
+    }
+    .tentang-wrapper h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .tentang-wrapper p {
+        text-align: justify;
+        font-size: 25px;
+        width: 97%;
+        color: #c05661c2;
+    }
+}
+
+
+/* UKURAN HANDPHONE */
+
+@media screen and (max-width: 700px) {
+    /* =========================== START NAVBAR =========================== */
+    .menu-toggle {
+        display: flex;
+    }
+    nav .header-right ul {
+        position: absolute;
+        right: 0;
+        width: 80%;
+        align-items: center;
+        flex-direction: column;
+        background-color: #00aced;
+        z-index: 4;
+        transform: translateX(100%);
+        top: 76px;
+        height: calc(100vh - 50px);
+        justify-content: space-around;
+        transition: all 1s;
+        opacity: 0;
+    }
+    nav .header-right ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    nav .header-right {
+        float: right;
+        margin-right: 0;
+        margin: 25px;
+    }
+    /* =========================== END NAVBAR =========================== */
+    /* =========================== HERO START =========================== */
+    header .sunshine {
+        width: 215px;
+    }
+    header:before {
+        width: 100%;
+        height: 990px;
+    }
+    header .flex-hero-w2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    header .flex-hero-w2 .heading-text1 {
+        font-size: 3.5rem;
+    }
+    header .flex-hero-w2 p.heading-text2 {
+        text-align: justify;
+        width: 95%;
+    }
+    header .flex-hero-w2 .hero-right2 {
+        display: none;
+    }
+    header .circle {
+        margin-bottom: -100px;
+    }
+    /* =========================== END HERO =========================== */
+    .TechStack-wrapper .TechStack {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .tentang-wrapper h2 {
+        font-size: 32px;
+        margin: 100px 20px 5px;
+    }
+    .tentang-wrapper .flex-tentang-w2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .tentang-wrapper img.image {
+        width: 95%;
+    }
+    .tentang-wrapper p {
+        text-align: justify;
+        font-size: 22px;
+        width: 96%;
+        color: #c05661c2;
+    }
+}
