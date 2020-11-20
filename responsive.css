@@ -103,9 +103,12 @@
     header .sunshine {
         width: 215px;
     }
+    header {
+        height: 650px;
+    }
     header:before {
         width: 100%;
-        height: 990px;
+        height: 790px;
     }
     header .flex-hero-w2 {
         flex: 100%;
@@ -122,16 +125,17 @@
         display: none;
     }
     header .circle {
-        margin-bottom: -100px;
+        margin-bottom: -50px;
     }
     /* =========================== END HERO =========================== */
     .TechStack-wrapper .TechStack {
         flex: 100%;
         max-width: 100%;
+        margin-right: 10px;
     }
     .tentang-wrapper h2 {
         font-size: 32px;
-        margin: 100px 20px 5px;
+        margin: 20px 20px 0px;
     }
     .tentang-wrapper .flex-tentang-w2 {
         flex: 100%;
@@ -145,5 +149,96 @@
         font-size: 22px;
         width: 96%;
         color: #776e6e;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* =========================== START NAVBAR =========================== */
+    .menu-toggle {
+        display: flex;
+    }
+    nav .header-right ul {
+        position: absolute;
+        right: 0;
+        width: 80%;
+        align-items: center;
+        flex-direction: column;
+        background-color: #00aced;
+        z-index: 4;
+        transform: translateX(100%);
+        top: 76px;
+        height: calc(100vh - 50px);
+        justify-content: space-around;
+        transition: all 1s;
+        opacity: 0;
+    }
+    nav .header-right ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    nav .header-right {
+        float: right;
+        margin-right: 0;
+        margin: 25px;
+    }
+    /* =========================== END NAVBAR =========================== */
+    /* =========================== HERO START =========================== */
+    header .sunshine {
+        width: 215px;
+    }
+    header {
+        height: 680px;
+    }
+    header:before {
+        width: 100%;
+        height: 850px;
+    }
+    header .flex-hero-w2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    header .flex-hero-w2 .heading-text1 {
+        font-size: 3rem;
+    }
+    header .flex-hero-w2 p.heading-text2 {
+        text-align: justify;
+        width: 93%;
+    }
+    header .flex-hero-w2 .hero-right2 {
+        display: none;
+    }
+    header .circle {
+        margin-bottom: -50px;
+    }
+    /* =========================== END HERO =========================== */
+    .TechStack-wrapper .TechStack {
+        flex: 100%;
+        max-width: 100%;
+        margin-right: 10px;
+    }
+    .tentang-wrapper h2 {
+        font-size: 20px;
+        margin: 20px 20px 0px;
+    }
+    .tentang-wrapper h3 {
+        font-size: 20px;
+        width: 100%;
+        color: #5f5b5b;
+    }
+    .tentang-wrapper .flex-tentang-w2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .tentang-wrapper img.image {
+        width: 100%;
+    }
+    .tentang-wrapper p {
+        text-align: center;
+        font-size: 22px;
+        width: 100%;
+        color: #776e6e;
+    }
+    .youtube {
+        margin-top: 10px;
     }
 }
