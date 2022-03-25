@@ -52,11 +52,12 @@
         max-width: 48%;
     }
     .tentang-wrapper .flex-tentang-w2 {
-        flex: 100%;
+        flex: 50%;
         max-width: 100%;
     }
     .tentang-wrapper img.image {
-        width: 96%;
+        flex: 100%;
+        object-fit: cover;
     }
     .tentang-wrapper h2 {
         font-size: 35px;
@@ -146,7 +147,7 @@
         max-width: 100%;
     }
     .tentang-wrapper img.image {
-        width: 95%;
+        flex: 100%;
     }
     .tentang-wrapper p {
         text-align: justify;
@@ -238,7 +239,7 @@
         max-width: 100%;
     }
     .tentang-wrapper img.image {
-        width: 100%;
+        flex: 100%;
     }
     .tentang-wrapper p {
         text-align: center;
