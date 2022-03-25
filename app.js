@@ -88,8 +88,8 @@ function topFunction() {
 }
 
 // PRELOADER
-let spinner = document.querySelector(".loader-bg");
+// let spinner = document.querySelector(".loader-bg");
 
-window.addEventListener("load", function() {
-    spinner.parentElement.removeChild(spinner);
-});
+// window.addEventListener("load", function() {
+//     spinner.parentElement.removeChild(spinner);
+// });
